@@ -1,0 +1,26 @@
+{
+  "name": "time_tracking",
+  "version": "1.0.0",
+  "description": "Time tracking App using Tailwind ",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "express": "^4.17.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/tailwind.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thezrbauer/time_tracking.git"
+  },
+  "author": "zachary bauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thezrbauer/time_tracking/issues"
+  },
+  "homepage": "https://github.com/thezrbauer/time_tracking#readme"
+}
