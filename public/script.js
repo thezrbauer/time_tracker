@@ -1,6 +1,6 @@
 
 
-const source = "../data.json"
+const source = "data.json"
  
 async function getJSON() {
     const response = await fetch(source);
