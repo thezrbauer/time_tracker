@@ -1,3 +1,5 @@
+app.use(express.static('public'));
+
 const source = "../data.json"
  
 async function getJSON() {
