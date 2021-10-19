@@ -1,4 +1,4 @@
-app.use(express.static('public'));
+
 
 const source = "../data.json"
  
@@ -118,6 +118,7 @@ function openWeekly () {
    document.getElementById('lastSelfMonthly').textContent = null;
   
 };
+
 openDaily();
 
 };
