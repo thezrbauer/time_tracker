@@ -1,4 +1,12 @@
 
+// Hi Zack! I saw your code and also think it's redundant 😅.
+//  You don't need to do different h2 and p for every situation, instead put a single h2.current time , p.previous-time (or something like that) and then modify it in JS.
+//   Now, put an addEventListener to the buttons daily, weekly, monthly(I think they should be li) and call a function.
+//    That function can edit the time frames using a for cycle. You can use template string for every context (like currentTime.textContent = data[index].timeFrames.${context}.current).
+// I hope I have explained well, don't doubt in asking if you want. Remember when you are coding, don't repeat yourself. This is great for a first challenge summited, keep going~
+
+
+
 
 const source = "data.json"
  
